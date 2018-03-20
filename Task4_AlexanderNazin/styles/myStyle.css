@@ -1,0 +1,231 @@
+body { 
+    direction: rtl;
+    background-image:url(../Images/wallpaper-blue-wood.jpg);
+    color:white;
+}
+#coteret h1{
+    font-family:Calibri;
+    font-size:30px;
+    text-align:center;
+    padding-top:20px;
+}
+#tatcoteret p{
+    font-size:20px;
+    text-align:center;
+    text-decoration:none;
+    font-family:Calibri;    
+}
+p .year {
+    font-family: Calibri;
+    font-weight:700;
+
+} 
+.xxx {margin-right:225px;  
+      height:130px;
+  
+}
+
+ p{
+    font-family: Calibri;
+}
+p .piska{
+    font-family:Calibri;
+    text-align:center;       
+}
+h2 {
+    font-family: Calibri;
+    margin-bottom:10px;
+    font-size:20px;
+}
+#container {
+    margin: auto;
+    width: 960px;
+    background-color: #1d2e44;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 20px 40px 10px #13181f;
+}
+
+#mail {
+    background-image: url(../Images/gmail-logo-389cccc2a16b3460-512x512.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    left: 5px;
+    transition: all 0.3s ease;
+}
+#mail:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+#face {
+    background-image: url(../Images/Facebook-logo-png-image-76118.png);
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    left:200px;
+    transition: all 0.3s ease;
+}
+#face:hover {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+li {
+    margin-right: 30px;
+    font-family: Calibri;
+}
+#uuu img {
+    width: 200px;
+    position: relative;
+    top: 10px;
+    right: 380px;
+    border: 3px solid white;
+    background: #676470;
+    transition: all 0.3s ease;
+}
+    #uuu img:hover {
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+    }
+
+ #work{
+     background-image:url(../Images/work.png);
+     width:100px;
+     height:100px;
+     background-repeat:no-repeat;
+     background-size:100%;
+     position:relative;
+      float: right;
+   right:105px;
+   top:25px;
+ }
+#person {
+    background-image: url(../Images/destination-w-icon.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: right;
+   right:105px;
+   bottom:5px;
+    
+}
+#army {
+    background-image: url(../Images/1697-200.png);
+    width: 100px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    right: 105px;
+    bottom: 20px;
+}
+#haskala {
+    background-image: url(../Images/Graduate-Hat.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    right: 105px;
+    bottom: 5px;
+}
+#tahbiv {
+    background-image: url(../Images/hobby.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    position: relative;
+    float: right;
+    right: 90px;
+    top:10px;
+  
+}
+#safot {
+    background-image: url(../Images/safot1.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    position: relative;
+    float: right;
+    right: 105px;
+    bottom: 5px;
+}
+#mahshev {
+    background-image: url(../Images/comp.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    position: relative;
+    float: right;
+    right: 105px;
+    bottom: 5px;
+}
+ul {
+    list-style-type:square;
+}
+#links{height:70px;}
+#rosh{height:350px;}
+
+#nav1 {
+    list-style: none;
+    position:relative;
+    right:15px;
+    bottom:45px;
+    height:30px;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+        width:95px;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: white;
+            color: #1d2e44;
+            width: 120px;
+            height: 30px;
+            padding-top:10px;
+            text-decoration: none;
+            text-align: center;
+            font-size:20px;
+            font-weight:700;
+        }
+
+            #nav1 ul li a:hover {
+                background-color: #1d2e44;
+                color:white;
+            }
+
+            #nav1 ul li a:active {
+                background-color: #1d2e44;
+                color: #1d2e44;
+            }
+
+        #nav1 ul li ul {
+            display:none;
+            position: absolute;
+            left:215px;
+        }
+
+        #nav1 ul li:hover > ul {
+            display: block;
+            width: 120px;
+        }
