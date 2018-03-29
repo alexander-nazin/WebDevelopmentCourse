@@ -1,0 +1,165 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-image:url();
+    background-repeat:round;
+    background-color:#3BCDFF;
+}
+#container{
+    margin: auto;
+    width: 960px;
+    background-color:transparent;
+    height: 900px;
+}
+.header{margin:auto;
+        width:auto;
+        height:auto;
+        background-image:url(../styles/Images/Educational-Tech-01.png);
+        background-repeat:no-repeat;
+        background-position:center top;
+}
+#pics{width:960px;
+}
+#telem {
+    background-image: url(../styles/Images/tech.png);
+    width: 400px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float:right;
+    right:150px;
+    top:140px;
+    transition: all 0.3s ease;
+}
+
+    #telem:hover {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+#logo {
+    background-image: url(../styles/Images/logo.png);
+    width: 135px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    right: 40px;
+    top: 10px;
+}
+#kesher {
+    width: 400px;
+    height: 400px;
+    float: left;
+    position: relative;
+    background-color: #1A9AC6;
+    top: 430px;
+
+}
+#pamon {
+    background-image: url(../styles/Images/paamon.png);
+    width: 100px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: relative;
+    float: left;
+    bottom:250px;
+    left:30px;
+}
+#text {
+    width: 470px;
+    height: 200px;
+    float: right;
+    position: relative;
+    background-color: #1A9AC6;
+    top: 330px;
+    font-family: Calibri;
+    padding: 30px;
+}
+#student {
+    background-image: url(../styles/Images/kesher.png);
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: left;
+}
+#face {
+    width: 510px;
+    height: 90px;
+    float: right;
+    position: relative;
+    background-color: #1A9AC6;
+    top: 360px;
+
+    font-family:Calibri;
+    padding:10px;
+}
+#f {
+    background-image: url(../styles/Images/Facebook-logo-png-image-76118.png);
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    float: left;
+    bottom: 47px;
+    left: 20px;
+    transition: all 0.3s ease;
+}
+
+#f:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+#face h1{text-align:center;
+         margin-top:30px;
+         font-size:25px;
+}
+
+    form{margin-right:30px;
+         margin-top:30px;
+    }
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: Calibri;
+    font-size:18px;
+    
+}
+
+input[type ='text'],textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Calibri;
+    width:200px;
+}
+
+
+input[type ='submit'] {
+    margin-top: 10px;
+    width:100px;
+    margin-right:50px;
+
+}
+h1{color:white;
+   font-size:20px;
+   font-family:Calibri;
+}
+li{list-style-type:square;
+   font-family:Calibri;
+   margin:2px;
+   font-size:18px;
+}
+ul{margin-right:20px;}
+p{font-family:Calibri;
+  text-align:right;
+  font-size:18px;
+}
+
