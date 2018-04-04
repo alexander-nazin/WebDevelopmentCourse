@@ -1,0 +1,547 @@
+@font-face {
+    font-family: 'dibuk';
+    src: url('../styles/fonts/DYBBRG__.eot');
+    src: url('../styles/fonts/DYBBRG__.eot') format('embedded-opentype'), url('../styles/fonts/DYBBRG__.ttf') format('truetype');
+}
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#container {
+    margin: 0;
+    width: auto;
+    background-color: white;
+    height: 600px;
+    position: center;
+    min-width: 960px;
+}
+#reka {
+    margin:0;
+    width: auto;
+    height: 600px;
+    background: linear-gradient(to right, #3C4D43, #6E8D7B );
+    margin-top: 5px;
+    min-width:960px;
+}
+
+#reka1 {
+    margin: 0;
+    width: auto;
+    height: 950px;
+    background: linear-gradient(to right, #3C4D43, #6E8D7B );
+    margin-top: 5px;
+    min-width: 960px;
+}
+#reka2 {
+    margin: 0;
+    width: auto;
+    height: 1100px;
+    background: linear-gradient(to right, #3C4D43, #6E8D7B );
+    margin-top: 5px;
+    min-width: 960px;
+}
+#text {
+    margin: auto;
+    width: 960px;
+    background-color: transparent;
+    height: 800px;
+    position: relative;
+    bottom: 55px;
+}
+#text1 {
+    margin: auto;
+    width: 960px;
+    background-color: transparent;
+    height: 1100px;
+    position: relative;
+    bottom: 55px;
+}
+#text2 {
+    margin: auto;
+    width: 960px;
+    background-color: transparent;
+    height: 1200px;
+    position: relative;
+    bottom: 55px;
+}
+#header {
+    margin: 0;
+    width: auto;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 35px;
+    min-width: 960px;
+}
+
+#nav1 {
+    list-style: none;
+    position: relative;
+    right: 15px;
+    height: 30px;
+    top: 20px;
+}
+
+#nav1 ul li {
+    display: inline-block;
+    float: right;
+    width: 100px;
+
+}
+
+#nav1 ul li a {
+    display: block;
+    color: black;
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+        font-weight: 700;
+        font-family: dibuk;
+        transition: all 0.3s ease;
+    }
+
+#nav1 ul li a:hover {
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+
+#nav1 ul li a:active {
+            color: white;
+        }        
+#port {width:400px;
+      height:150px;
+    margin:auto;
+    position:relative;
+    text-align:center;
+    top:70px;
+
+}
+ #port p {
+        font-family: dibuk;
+        font-size: 35px;
+        margin:15px;
+    }
+#port .rosh {
+    font-family: dibuk;
+    font-size: 65px;
+}
+#monster {
+    background-image: url(../styles/images/monster.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 345px;
+    position: relative;
+    float: left;
+    clear: both;
+    left:325px;
+    top:125px;
+}
+#knight {
+    background-image: url(../styles/images/knight2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 130px;
+    position: relative;
+    clear: both;
+    float: right;
+    bottom:15px;
+    right:170px;
+
+}
+#hole {
+    width: 300px;
+    height: 800px;
+    background-color: #28332D;
+    position: relative;
+    float: left;
+    left: 20px;
+    bottom: 15px;
+    clear: both;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+#monsters {
+    background-image:url(../styles/images/monsters.png);
+    background-repeat:no-repeat;
+    width: 300px;
+    height: 800px;
+    position: relative;
+    float: left;
+    clear: both;
+    top:60px;
+    left:25px;
+ 
+}
+#skeleton {
+    background-image: url(../styles/images/skeleton.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    clear:both;
+    background-size:200px;
+    float:right;
+    bottom:650px;
+    right:200px;
+
+}
+
+div.works {
+    margin: 5px;
+    position: relative;
+    box-shadow: 0px 4px 4px black;
+    background-color: #6E8D7B;
+    float: left;
+    transition: all 1.5s ease;
+    color: #6E8D7B;
+    left:220px;
+ 
+}
+
+div.works:hover {
+        color: black;
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-family:Calibri;
+    font-size: 16px;
+    font-weight:600;
+}
+#tzipor {
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 196px;
+    right:10px;
+}
+div #tzipor img {
+    width: 100%;
+    height: auto;
+}
+#portret {
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+div #portret img {
+    width: 100%;
+    height: auto;
+}
+#actil {
+    position: relative;
+    width: 240px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+}
+div #actil img {
+    width: 100%;
+    height: auto;
+ 
+}
+#monster1 {
+    background-image: url(../styles/images/monster1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 180px;
+    height: 265px;
+    position: relative;
+    clear: both;
+    float: right;
+    right:750px;
+    bottom:420px;
+}
+#knight1 {
+    background-image: url(../styles/images/knight1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 150px;
+    position: relative;
+    right:70px;
+    top:330px;
+
+}
+#photo {
+    position: relative;
+    margin: auto;
+    width: 700px;
+    top:70px;
+}
+
+
+#card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+#photo:hover #card {
+    transform: rotateY(180deg);
+    box-shadow: 0px 4px 4px black;
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.front img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 4px 4px black
+    }
+.back {
+    display: block;
+    width: 700px;
+    height: 500px;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    color: black;
+    background-color: #6E8D7B;
+    padding: 50px;
+    text-align: right;
+}
+#video{margin:auto;
+       position:relative;
+       top:100px;
+       width:700px;
+       height:auto;
+       clear:both;
+}
+#photo1 {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    top: 70px;
+}
+
+
+#card1 {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+#photo1:hover #card1 {
+    transform: rotateY(180deg);
+    box-shadow: 0px 4px 4px black;
+}
+
+.front1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.front1 img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 4px 4px black
+    }
+
+.back1 {
+    display: block;
+    width: 600px;
+    height: 850px;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    color: black;
+    background-color: #6E8D7B;
+    padding: 50px;
+    text-align: right;
+}
+#photo2 {
+    position: relative;
+    margin: auto;
+    width: 700px;
+    top: 70px;
+}
+
+
+#card2 {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+#photo2:hover #card2 {
+    transform: rotateY(180deg);
+    box-shadow: 0px 4px 4px black;
+}
+
+.front2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.front2 img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 4px 4px black
+    }
+
+.back2 {
+    display: block;
+    width: 700px;
+    height: 470px;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    color: black;
+    background-color: #6E8D7B;
+    padding: 50px;
+    text-align: right;
+}
+#audio {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+}
+.back h1, #me h1, .back1 h1, .back2 h1{
+    font-family:Calibri;
+   font-size:20px;
+}
+.back p, #me p, .back1 p, .back2 p {
+    font-family: Calibri;
+    font-size: 16px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.back h2, .back1 h2, .back2 h2 {
+        font-family: Calibri;
+        font-size: 18px;
+    }
+#me {
+    background-image: url(../styles/images/me.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 500px;
+    height: 120px;
+    margin: auto;
+    background-color: #6E8D7B;
+    background-position-x:50px;
+    background-position-y:35px;
+    box-shadow: 0px 4px 4px black;
+    padding:50px;
+}
+#knight2 {
+    background-image: url(../styles/images/knight.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 150px;
+    position: relative;
+clear:both;
+bottom:190px;
+right:100px;
+}
+#monsters1 {
+    background-image: url(../styles/images/monsters1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 340px;
+    height: 300px;
+    position: relative;
+    right:615px;
+   top:10px;
+ 
+}
+#link1 {
+    width: 150px;
+    height: 150px;
+    background-color: #6E8D7B;
+    box-shadow: 0px 4px 4px black;
+    position:relative;
+    right:170px;
+    top:150px;
+}
+#link1 img {
+        width: auto;
+        height: 70px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-right: 15px;
+        transition: all 1s ease;
+    }
+#link1 img:hover {
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+    }
+#link2 {
+    width: 150px;
+    height: 150px;
+    background-color: #6E8D7B;
+    box-shadow: 0px 4px 4px black;
+    position: relative;
+    float:left;
+    left:180px;
+    top:70px;
+}
+#link2 img {
+        width: 70px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        transition: all 1s ease;
+    }
+ #link2 img:hover {
+            -webkit-transform: rotateZ(30deg);
+            -ms-transform: rotateZ(30deg);
+            transform: rotateZ(30deg);
+        }
+#knight3 {
+    background-image: url(../styles/images/knight3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 150px;
+    position: relative;
+    clear: both;
+    bottom: 463px;
+    right: 600px;
+}
+#monster2 {
+    background-image: url(../styles/images/monster2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    right: 400px;
+    bottom:70px;
+}
+
