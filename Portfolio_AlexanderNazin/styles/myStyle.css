@@ -29,7 +29,7 @@ body {
 #reka1 {
     margin: 0;
     width: auto;
-    height: 950px;
+    height: 650px;
     background: linear-gradient(to right, #3C4D43, #6E8D7B );
     margin-top: 5px;
     min-width: 960px;
@@ -37,7 +37,7 @@ body {
 #reka2 {
     margin: 0;
     width: auto;
-    height: 1100px;
+    height: 1150px;
     background: linear-gradient(to right, #3C4D43, #6E8D7B );
     margin-top: 5px;
     min-width: 960px;
@@ -54,15 +54,7 @@ body {
     margin: auto;
     width: 960px;
     background-color: transparent;
-    height: 1100px;
-    position: relative;
-    bottom: 55px;
-}
-#text2 {
-    margin: auto;
-    width: 960px;
-    background-color: transparent;
-    height: 1200px;
+    height: 1250px;
     position: relative;
     bottom: 55px;
 }
@@ -544,4 +536,29 @@ right:100px;
     right: 400px;
     bottom:70px;
 }
+.fullphoto {
+    margin: auto;
+    width: 150px;
+    height: 25px;
+    background-color: #6E8D7B;
+    box-shadow: 0px 4px 4px black;
+    position: relative;
+    top: 85px;
+    text-align: center;
+    padding-top: 7px;
+    font-family: Calibri;
+    transition: all 1s ease
+}
+    .fullphoto:hover {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    .fullphoto a {
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight:700;
+    }
+
 
