@@ -96,6 +96,10 @@ body {
         font-family: dibuk;
         transition: all 0.3s ease;
     }
+    #nav1 ul li .raboti, #nav1 ul li .dom, #nav1 ul li .avtor, #nav1 ul li .svyaz{
+        font-size:20px;
+    }
+
 
 #nav1 ul li a:hover {
             -webkit-transform: scale(0.8);
@@ -290,7 +294,7 @@ div #actil img {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: all 1.0s linear;
+    transition: all 1.5s linear;
 }
 
 #photo:hover #card {
@@ -339,7 +343,7 @@ div #actil img {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: all 1.0s linear;
+    transition: all 1.5s linear;
 }
 
 #photo1:hover #card1 {
@@ -383,7 +387,7 @@ div #actil img {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: all 1.0s linear;
+    transition: all 1.5s linear;
 }
 
 #photo2:hover #card2 {
@@ -538,18 +542,14 @@ right:100px;
 }
 .fullphoto {
     margin: auto;
-    width: 150px;
-    height: 25px;
-    background-color: #6E8D7B;
-    box-shadow: 0px 4px 4px black;
+    width: 600px;
+    height: 30px;
     position: relative;
-    top: 85px;
+    top: 80px;
     text-align: center;
-    padding-top: 7px;
     font-family: Calibri;
-    transition: all 1s ease
 }
-    .fullphoto:hover {
+    .fullphoto a:hover {
         -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);
@@ -558,7 +558,17 @@ right:100px;
         color: black;
         text-decoration: none;
         font-size: 16px;
-        font-weight:700;
+        font-weight: 700;
+        display: inline-block;
+        background-color: aqua;
+        height: 20px;
+        width: 150px;
+        text-align: center;
+        padding-top: 5px;
+        margin: 10px;
+        background-color: #6E8D7B;
+        box-shadow: 0px 4px 4px black;
+        transition: all 1s ease;
     }
 
 
